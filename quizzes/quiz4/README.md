@@ -18,3 +18,11 @@ This should have two columns:
 Order your results by planet name in ascending order. Example: If Lee is certified in "Viper" and "Mechanic" and Kara is certified in "Viper" and they are both from Caprica, then the "CertCount" for the planet Caprica should be 3.
 
 > Answer: [`question1.sql`](./question1.sql)
+
+
+### Question 2
+
+
+Find people assigned to at least one instance of Viper ship class. Using the BSG database described in this Quiz's description, find the fname and lname of all people who are assigned to at least one instance of a Viper class ship (this includes all variants of Viper class ships). Return only a single row per person and sort by fname in ascending order.
+
+> Answer: [`question2.sql`](./question2.sql)

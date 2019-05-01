@@ -1,9 +1,9 @@
-DROP TABLE IF EXISTS `pcc`;
-CREATE TABLE pcc (
+DROP TABLE IF EXISTS `answer`;
+CREATE TABLE answer (
     name VARCHAR(255) PRIMARY KEY,
     CertCount int(11) NOT NULL DEFAULT 0
 );
-INSERT INTO pcc(name, CertCount)
+INSERT INTO answer(name, CertCount)
 SELECT name, count(title)
 	FROM bsg_planets
 	INNER JOIN bsg_people A
@@ -14,4 +14,4 @@ SELECT name, count(title)
 	ON D.id = B.cid
 GROUP BY name
 ;
-SELECT name, CertCount FROM pcc;
+SELECT name, CertCount FROM answer;
