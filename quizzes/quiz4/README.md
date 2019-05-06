@@ -50,7 +50,7 @@ Which of the following queries contains an error?
   <li>None of these</li>
 </ol>
 
-> Answer: a. SELECT * FROM EMPLOYEE WHERE first_name <> 'David';
+> Answer: c. SELECT first_name WHERE first_name='David' and last_name='Smith';
 
 
 ### Question 6
@@ -89,7 +89,7 @@ Which of the functions below is not an aggregate function ?
     <li>mean</li>
 </ol>
 
-> Answer: 
+> Answer: d. mean
 
 
 ### Question 9
@@ -116,5 +116,5 @@ Which of the following finds the first name and last name10+ of all employees wh
     <li>None of these</li>
 </ol>
 
-> Answer: e. All of these
+> Answer: a. and c.
 
