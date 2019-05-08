@@ -83,3 +83,12 @@ You just need to return the film_id for this query.
 Order your results by film_id in ascending order.
 
 > Answer: [`partB-question1.sql`](./partB-question1.sql)
+
+
+#### Question 2
+We want to find out how many of each category of film ED CHASE has starred in.
+So return a table with category_name and the count of the number_of_films that ED was in that category.
+Your query should return every category even if ED has been in no films in that category
+Order by the category name in ascending order.
+
+> Answer: [`partB-question2.sql`](./partB-question2.sql)
