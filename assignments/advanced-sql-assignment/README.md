@@ -64,3 +64,11 @@ Insert the following into the works_on table. Again, your queries here should no
 | Abdul Rehman | Diamond | 9/11/2014 |
 
 > Answer: [`partA-question2.sql`](./partA-question2.sql)
+
+
+### Advanced SQL Assignment Part B
+Database: [`sakila-db.sql`](./sakila-db.sql)
+<p align="center">
+<img src="./sakila-relevant-schema.png" />
+</p>
+
