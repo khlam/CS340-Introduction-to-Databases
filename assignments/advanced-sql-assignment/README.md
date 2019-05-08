@@ -106,3 +106,10 @@ Find the first_name and last_name of all actors who have never been in a Sci-Fi 
 Order by the actor_id in ascending order.
 
 > Answer: [`partB-question4.sql`](./partB-question4.sql)
+
+#### Question 5
+Find the film_title of all films which feature both KIRSTEN PALTROW and WARREN NOLTE.
+Order the results by film_title in descending order.
+Warning: this is a tricky one and while the syntax is all things you know, you have to think a bit oustide the box to figure out how to get a table that shows pairs of actors in movies.
+
+> Answer: [`partB-question5.sql`](./partB-question5.sql)
