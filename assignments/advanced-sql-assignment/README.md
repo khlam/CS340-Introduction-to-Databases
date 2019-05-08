@@ -100,3 +100,9 @@ Look at the category table to figure out how to filter data for Sci-Fi films.
 Order your results by the actor_id in descending order.
 
 > Answer: [`partB-question3.sql`](./partB-question3.sql)
+
+#### Question 4
+Find the first_name and last_name of all actors who have never been in a Sci-Fi film.
+Order by the actor_id in ascending order.
+
+> Answer: [`partB-question4.sql`](./partB-question4.sql)
