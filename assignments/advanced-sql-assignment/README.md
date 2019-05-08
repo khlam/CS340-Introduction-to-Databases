@@ -30,3 +30,37 @@ Create a table called works_on representing a many-to-many relationship between 
 
 > Answer: [`partA-question1.sql`](./partA-question1.sql)
 
+#### Question 2
+Insert the following into the client table:
+
+| First Name	| Last Name	    | DOB |
+| ------------- | ------------- | --- |
+| Sara          | Smith	        | 1/2/1970 |
+| Miguel	    | Cabrera       | 2/2/1988 |
+| Bo            | Chang         | 3/2/1985 |
+ 
+Insert the following into the employee table:
+
+| First name    |	Last name   | DOB | Date Joined |
+| ------------- | ------------- | ----| --------- |
+| Ananya        | Jaiswal       | 1/2/1975 | 1/1/2009 |
+| Michael       | Fern          | 10/18/1980 | 6/5/2013 |
+| Abdul         |	Rehman	    | 3/21/1984	| 11/10/2013 |
+ 
+Insert the following project instances into the project table (you should use a subquery to set up foreign key references and not hard-coded numbers):
+
+| cid | name | notes |
+| ------------- | ------------- | ------------- |
+| reference to Sara Smith | Diamond | Should be done by Jan 2019 |
+| reference to Bo Chang	| Chan'g | Ongoing maintenance |
+| reference to Miguel Cabrera | The Robinson Project | NULL |
+ 
+Insert the following into the works_on table. Again, your queries here should not have hard-coded integers for foreign keys.
+
+| employee | project | start_date |
+| ------------- | ------------- | --- |
+| Ananya Jaiswal |	Chan'g | 1/1/2012 |
+| Michael Fern | The Robinson Project | 8/8/2013 |
+| Abdul Rehman | Diamond | 9/11/2014 |
+
+> Answer: [`partA-question2.sql`](./partA-question2.sql)
